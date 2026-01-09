@@ -272,3 +272,48 @@ p {
     transform: translateY(-50%);
     
 }
+.hero-section{
+    background-color: rgba(247, 246, 242, 1);
+    padding: 80px 40px 88px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    height: 384px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+.frame-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+    padding: 0;
+}
+.frame-container h1{
+    font-size: 40px;
+    color:black;
+    margin: 0;
+}
+.frame-container h5{
+    list-style: none;
+    color: rgba(0, 25, 49, 1);
+    font-style: regular;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.cta-btn{
+    padding: 15px 30px;
+}
+.frame-text{
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+
+}
