@@ -317,3 +317,58 @@ p {
     margin: 0;
 
 }
+footer{
+    width: 100%;
+    background: rgba(0, 25, 49, 1);
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 90;
+    padding: 120px 120px 50px 120px;
+    max-width: 1600;
+    margin: 0 auto;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+footer .logo img{
+    padding: 0;
+}
+.social-links h6{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.social-links .social-icons{
+    display:flex;
+    background: white;
+    gap: 20px;
+    transition: 0.3s;
+}
+
+.divider{
+    width: 100%;
+
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.copyright p{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
